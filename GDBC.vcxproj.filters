@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\database">
+      <UniqueIdentifier>{2c8b959e-22ef-4b1a-8626-b3ae5866297d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\database">
+      <UniqueIdentifier>{1a22747a-33da-4dbf-9472-5592e48ef3f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GDBC.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\PGSQLDelayThread.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\SQLStorageImpl.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="GDBCPrerequisities.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GDBCPlatform.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GDBCCommonHeaders.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GDBCTypedef.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GDBCVersion.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="UnorderedMapSet.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GDBCThreading.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\GDBCDatabase.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\GDBCSqlPreparedStatement.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\GDBCField.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\GDBCQueryResult.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\GDBCSqlOperations.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="GDBCCallback.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GDBCLockedQueue.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\GDBCSqlDelayThread.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\GDBCDatabaseImpl.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\GDBCSQLStorage.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\GDBCDBCFileLoader.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="GDBCByteConverter.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GDBCProgressBar.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\GDBCDBCStore.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\GDBCDatabaseMysql.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="GDBCUtilities.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\GDBCQueryResultMysql.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\GDBCMySQLDelayThread.h">
+      <Filter>Archivos de encabezado\database</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GDBC.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\GDBCSqlPreparedStatement.cpp">
+      <Filter>Archivos de código fuente\database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\GDBCField.cpp">
+      <Filter>Archivos de código fuente\database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\GDBCSqlOperations.cpp">
+      <Filter>Archivos de código fuente\database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\GDBCSqlDelayThread.cpp">
+      <Filter>Archivos de código fuente\database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\GDBCDatabase.cpp">
+      <Filter>Archivos de código fuente\database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\GDBCThreading.cpp">
+      <Filter>Archivos de código fuente\database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\GDBCSQLStorage.cpp">
+      <Filter>Archivos de código fuente\database</Filter>
+    </ClCompile>
+    <ClCompile Include="GDBCProgressBar.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\GDBCDBCFileLoader.cpp">
+      <Filter>Archivos de código fuente\database</Filter>
+    </ClCompile>
+    <ClCompile Include="GDBCUtilities.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\GDBCDatabaseMysql.cpp">
+      <Filter>Archivos de código fuente\database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\GDBCQueryResultMysql.cpp">
+      <Filter>Archivos de código fuente\database</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GDBC.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
